@@ -14,7 +14,7 @@ import requests
 import pwinput
 import readchar
 
-g = Gauge('Heart_Rate', 'HTTP Failures', ['timestamp'])
+g = Gauge('Heart_Rate', 'heart_rate', ['timestamp'])
 today = datetime.date.today()
 
 from garminconnect import (
